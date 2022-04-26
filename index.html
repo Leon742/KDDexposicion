@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aaron | Jesus | Leon | Jonatan">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Exposicion KDD</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid ">
+            <a class="navbar-brand text-white" href="#inicio">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="#introduccion">Introduccion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#desarrollo">Desarrollo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#Ejemplo">Ejemplo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link   text-white" href="#Ventajas_Desventajas">Ventajas y Deventajas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#Conclusion">Conclusion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#Referencias">Referencias</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container-fluid m-1">
+        <div class="row">
+            <div class="col-md-10 mx-auto" id="inicio">
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <h1 class="card-header">Metodologia KDD</h1>
+                    <div class="card-body">
+                        <p class="card-text">Integrantes</p>
+                        <ul class="card-text">
+                            <li>Dominguez Matias Jesus</li>
+                            <li>Maldonado Gutierrez Aaron Marco</li>
+                            <li>Medina Arcos Jonatan Ruben </li>
+                            <li>Ramirez Rivero Jose Leon</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Seccion: Introduccion -->
+    <div class="container-fluid m-1">
+        <div class="row">
+            <div class="col-md-10 mx-auto" id="introduccion">
+                <div class="card">
+                    <h5 class="card-header text-white bg-dark">Introduccion</h5>
+                    <div class="card-body">
+                        <p class="card-text">KDD se conoce como Knowledge Discovery in Database y se define como un
+                            método secuencial e iterativo para encontrar, transformar y refinar datos y patrones
+                            significativos a partir de una base de datos sin procesar para poder utilizarlos en
+                            diferentes dominios o aplicaciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Seccion: Desarrollo -->
+    <div class="container-fluid m-1">
+        <div class="row">
+            <div class="col-md-10 mx-auto" id="desarrollo">
+                <div class="card">
+                    <marquee BEHAVIOR=ALTERNATE>
+                        <h5 class="card-header text-white bg-dark">Desarrollo</h5>
+                    </marquee>
+                    <!-- <h5 class="card-header text-white bg-dark">Desarrollo</h5> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Pasos involucrados en el proceso KDD: </h5>
+                        <img class="rounded mx-auto d-block" src="img/KDD_process.png">
+                        <br>
+                        <h5 class="card-header">Paso 1: Limpieza de datos</h5>
+                        <div class="card-body">
+                            <p class="card-text">
+                                La limpieza de datos se define como la eliminación de datos ruidosos e irrelevantes de
+                                la recopilación.
+                            </p>
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">Limpieza en caso de valores faltantes .</li>
+                                <li class="list-group-item">Limpieza de datos ruidosos , donde el ruido es un error
+                                    aleatorio o de varianza.</li>
+                                <li class="list-group-item">Limpieza con detección de discrepancias de datos y
+                                    herramientas de transformación de datos .</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <h5 class="card-header">Paso 2: Integración de datos</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            La integración de datos se define como datos heterogéneos de múltiples fuentes combinados en
+                            una fuente común (DataWarehouse)
+                        </p>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">Integración de datos utilizando herramientas de migración de
+                                datos .</li>
+                            <li class="list-group-item">Integración de datos mediante proceso ETL
+                                (Extract-Load-Transformation).</li>
+                        </ol>
+                    </div>
+                    <h5 class="card-header">Paso 3: Selección de datos </h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            La selección de datos se define como el proceso en el que los datos relevantes para el
+                            análisis se deciden y recuperan de la recopilación de datos
+                        </p>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">Selección de datos mediante red neuronal </li>
+                            <li class="list-group-item">Selección de datos mediante árboles de decisión .</li>
+                            <li class="list-group-item">Selección de datos mediante Naive bayes .</li>
+                        </ol>
+
+                    </div>
+                    <h5 class="card-header">Paso 4: Transformación de datos</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            La transformación de datos se define como el proceso de transformación de datos en la forma
+                            adecuada requerida por el procedimiento de minería.
+                        </p>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">Mapeo de datos : asignación de elementos desde la base de origen
+                                hasta el destino para capturar transformaciones.</li>
+                            <li class="list-group-item">Generación de código : Creación del programa de transformación
+                                real.</li>
+                        </ol>
+                    </div>
+                    <h5 class="card-header">Paso 5: Minería de datos</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            La minería de datos se define como técnicas inteligentes que se aplican para extraer
+                            patrones potencialmente útiles.
+                        </p>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">Transforma los datos relevantes de la tarea en patrones .</li>
+                            <li class="list-group-item">Decide el propósito del modelo usando clasificación o
+                                caracterización .</li>
+                        </ol>
+                    </div>
+                    <h5 class="card-header">Paso 6: Evaluación de patrones</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            La evaluación de patrones se define como la identificación de patrones estrictamente
+                            crecientes que representan el conocimiento basado en medidas dadas.
+                        </p>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">Encuentre la puntuación de interés de cada patrón.</li>
+                            <li class="list-group-item">Utiliza resumen y visualización para que los datos sean
+                                comprensibles para el usuario.</li>
+                        </ol>
+                    </div>
+                    <h5 class="card-header">Paso 7: Representación del conocimiento</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            La representación del conocimiento se define como una técnica que utiliza herramientas de
+                            visualización para representar los resultados de la minería de datos.
+                        </p>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item">Generar informes .</li>
+                            <li class="list-group-item">Generar tablas .</li>
+                            <li class="list-group-item">Generar reglas discriminantes, reglas de clasificación, reglas
+                                de caracterización , etc.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <!-- Seccion: Ejemplo -->
+    <div class="container-fluid m-1">
+        <div class="row">
+            <div class="col-md-10 mx-auto" id="Ejemplo">
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <h5 class="card-header text-white bg-dark">Ejemplo</h5>
+                    <div class="card-body">
+                        <p class="card-text">Entonces, sigue adelante y recolecta piedras, conchas, monedas o cualquier
+                            artefacto que pueda estar en el lecho del río. Pero eso también trae suciedad y otros
+                            objetos no deseados, de los que deberá deshacerse para tener los objetos listos para su uso
+                            posterior.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Ventajas y Desventajas -->
+    <div class="container-fluid m-1">
+        <div class="row">
+            <div class="col-md-10 mx-auto" id="Ventajas_Desventajas">
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <h5 class="card-header  text-white bg-dark">Ventajas</h5>
+                    <div class="card-body">
+                        <ul class="card-text">
+                            <li>Descripción de los datos en términos familiares para el usuario.</li>
+                            <li>Documentación automática de los datos y pasos de procesamiento.</li>
+                            <li>La reutilización de las aplicaciones en diferentes bases de datos KDD.</li>
+                            <li>Intercambiabilidad de conocimiento acerca de aplicaciones exitosas de KDD</li>
+                        </ul>
+
+                    </div>
+                    <br>
+                    <h5 class="card-header text-white bg-dark">Desventajas</h5>
+                    <div class="card-body">
+                        <ul class="card-text">
+                            <li>Costo: el almacenamiento de volúmenes de datos masivos y en constante desarrollo
+                                conlleva un costo inicial obvio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Conclusion-->
+    <div class="container-fluid m-1">
+        <div class="row">
+            <div class="col-md-10 mx-auto" id="Conclusion">
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <h5 class="card-header text-white bg-dark">Conclusion</h5>
+                    <div class="card-body">
+                        <p class="card-text">La minería de datos como parte del proceso de KDD constituye una
+                            herramienta estratégica para las empresas y de apoyo en la toma de decisiones.
+                            El método KDD nos ayudará a encontrar conocimiento útil, válido, relevante y nuevo sobre un
+                            fenómeno o actividad mediante algoritmos eficientes, dadas las crecientes órdenes de
+                            magnitud en los datos
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid m-1">
+        <div class="row">
+            <div class="col-md-10 mx-auto" id="Referencias">
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <h5 class="card-header text-white bg-dark">Referencias</h5>
+                    <div class="card-body">
+                        <ul class="card-text">
+                            <li>
+                                <blockquote cite="https://www.geeksforgeeks.org/kdd-process-in-data-mining/">
+                                    GeeksforGeeks. (2021, 2 agosto). KDD Process in Data Mining. Recuperado 26 de abril
+                                    de 2022, de https://www.geeksforgeeks.org/kdd-process-in-data-mining/
+                                </blockquote>
+                            </li>
+                            <li>
+                                <blockquote cite="https://www.upgrad.com/blog/kdd-process-data-mining/">
+                                    Sharma, R. (2021, 29 octubre). KDD Process in Data Mining: What You Need To Know?
+                                    upGrad Blog. Recuperado 26 de abril de 2022, de
+                                    https://www.upgrad.com/blog/kdd-process-data-mining/
+                                </blockquote>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #511013; color:white;">
+            <a class="text-white" href="index.html">Metodologia KDD - Equipo 1</a>
+            <p class="text-white">27 de Abril del 2022 </p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

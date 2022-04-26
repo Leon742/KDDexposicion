@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(212, 211, 211) !important;
+}
+nav{
+    background:#511013;
+    
+}
+/* nav ul li a{
+    color:white;
+}
+nav .nav-item a{
+    color:white;
+} */
+
+/* li:hover {
+    color: rgb(60, 42, 167);
+} */
+
+li:hover, li:active {background: rgba(123, 121, 228, 0.705);}
